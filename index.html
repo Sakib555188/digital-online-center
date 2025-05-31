@@ -10,13 +10,13 @@
         body { font-family: 'Roboto', sans-serif; margin:0; background:#f4f6f9; color:#333; }
         header { background:#003366; color:#fff; padding:15px 20px; display:flex; align-items:center; }
         header .logo { font-weight:700; font-size:24px; display:flex; align-items:center; }
-        header .logo svg { margin-right:10px; }
+        header .logo img { margin-right:10px; height:32px; }
         nav { margin-left:auto; }
         nav a { color:#fff; text-decoration:none; margin-left:20px; font-weight:500; }
         nav a:hover { text-decoration:underline; }
         .hero { background:#004080; color:#fff; padding:60px 20px; text-align:center; }
         .hero h1 { margin-bottom:10px; }
-        .services { padding:40px 20px; max-width:900px; margin:auto; }
+        .services { padding:40px 20px; max-width:1000px; margin:auto; }
         .services h2 { text-align:center; margin-bottom:30px; color:#004080; }
         .service-list { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:20px; }
         .service-item { background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); text-align:center; }
@@ -38,7 +38,7 @@
 <body>
 <header>
     <div class="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="32" viewBox="0 0 24 24" width="32"><path d="M12 2L2 7v13h20V7l-10-5zM7 18H5v-6h2v6zm4 0h-2v-6h2v6zm4 0h-2v-6h2v6z"/></svg>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/CSC_Logo.png" alt="CSC Logo" />
         Digital Online Center
     </div>
     <nav>
@@ -57,31 +57,17 @@
 <section class="services" id="services">
     <h2>हमारी सेवाएं</h2>
     <div class="service-list">
-        <div class="service-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Aadhaar_Logo.svg" alt="Aadhaar" />
-            <h3>आधार कार्ड अपडेट</h3>
-            <p>आधार से संबंधित सभी सेवाएं</p>
-        </div>
-        <div class="service-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/PAN_card_logo.svg" alt="PAN" />
-            <h3>पैन कार्ड आवेदन</h3>
-            <p>पैन कार्ड बनवाएं और अपडेट करें</p>
-        </div>
-        <div class="service-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Income_Certificate_Icon.png" alt="Income Certificate" style="height:60px;"/>
-            <h3>आय प्रमाण पत्र</h3>
-            <p>सरकारी आय प्रमाण पत्र आवेदन</p>
-        </div>
-        <div class="service-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Caste_certificate_logo.png" alt="Caste Certificate" style="height:60px;"/>
-            <h3>जाति प्रमाण पत्र</h3>
-            <p>जाति प्रमाण पत्र बनवाएं</p>
-        </div>
-        <div class="service-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Ration_card_icon.png" alt="Ration Card" style="height:60px;"/>
-            <h3>राशन कार्ड</h3>
-            <p>राशन कार्ड आवेदन और अपडेट</p>
-        </div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Aadhaar_Logo.svg" alt="Aadhaar" /><h3>आधार कार्ड अपडेट</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/PAN_card_logo.svg" alt="PAN" /><h3>पैन कार्ड आवेदन</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Ration_card_icon.png" alt="Ration Card" /><h3>राशन कार्ड सेवाएं</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Income_Certificate_Icon.png" alt="Income" /><h3>आय प्रमाण पत्र</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Caste_certificate_logo.png" alt="Caste" /><h3>जाति प्रमाण पत्र</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Domicile_certificate.png" alt="Domicile" /><h3>निवास प्रमाण पत्र</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Birth_certificate_icon.png" alt="Birth" /><h3>जन्म प्रमाण पत्र</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Death_certificate_icon.png" alt="Death" /><h3>मृत्यु प्रमाण पत्र</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/E_Shram_Card_Logo.png" alt="E-Shram" /><h3>ई-श्रम कार्ड</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Voter_ID_Card_Logo.png" alt="Voter ID" /><h3>मतदाता पहचान पत्र</h3></div>
+        <div class="service-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Passport_India_Logo.svg" alt="Passport" /><h3>पासपोर्ट सेवाएं</h3></div>
     </div>
 </section>
 
@@ -96,7 +82,7 @@
     </form>
 </section>
 
-<section class="about" id="about" style="padding: 40px 20px; max-width:900px; margin:auto;">
+<section class="about" id="about" style="padding: 40px 20px; max-width:1000px; margin:auto;">
     <h2>हमारे बारे में</h2>
     <p>Digital Online Center पर हम MP Online से संबंधित सभी सरकारी सेवाएं प्रदान करते हैं जैसे आधार, पैन, जाति, निवास प्रमाण पत्र, और अन्य दस्तावेजों की ऑनलाइन आवेदन सेवाएं। हमारा उद्देश्य आपको आसान, भरोसेमंद और तेज सेवा देना है।</p>
 </section>
